@@ -24,10 +24,11 @@
 
 .navItems {
   display: inline-block;
-  margin: 0px 7px;
+  margin: 0px 15px;
   text-decoration: underline;
   text-underline-offset: 5px;
   font-style: italic;
+  font-weight: 600;
 }
 
 .navbar2 {
@@ -37,4 +38,29 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.color {
+  color: black;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  margin: 5px;
+}
+
+.logoText {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color2 {
+  color: rgb(1, 53, 185);
 }

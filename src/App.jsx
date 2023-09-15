@@ -17,13 +17,18 @@ function App() {
         </div>
         <img className="bg" src={bg1} alt="mountains" />
       </div>
-      <div className="navbar2">
-        <img src={logo} alt="logo" className="logo" />
-        <p className="logoText">LOSANGELES</p>
-        <p className="logoText">MOUNTAINS</p>
+      <div className="navbar">
+        <div className="logoContainer">
+          <img src={logo} alt="logo" className="logo" />
+          <div className="textContainer">
+            <p className="logoText">LOSANGELES</p>
+            <p className="logoText color2">MOUNTAINS</p>
+          </div>
+        </div>
+
         <ul className="nav">
-          <li className="navItems">01. HISTORY</li>
-          <li className="navItems">02. TEAM</li>
+          <li className="navItems color">01. HISTORY</li>
+          <li className="navItems color">02. TEAM</li>
         </ul>
       </div>
     </>
