@@ -110,9 +110,7 @@ a:active {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  background-color: pink;
   z-index: 100;
-  position: absolute;
 }
 
 .description2 {
@@ -124,5 +122,29 @@ a:active {
   z-index: 100;
   width: 100%;
   background-color: #29295082;
-  bottom: 0px;
+  align-self: flex-end;
+}
+
+.description3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 33px -56px;
+}
+
+.sm2 {
+  margin: 0px 244px 0px 0px;
+  position: absolute;
+}
+
+.tm2 {
+  margin: 15px 401px 7px 218px;
+}
+
+.cm2 {
+  margin: 12px -573px 7px 0px;
+  position: absolute;
 }

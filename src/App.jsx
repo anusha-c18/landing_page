@@ -50,6 +50,16 @@ function App() {
           <Carousel />
         </div>
       </div>
+      <div className="description3">
+        <p className="slno sm2">02.</p>
+        <p className="title tm2">CLIMB</p>
+        <p className="content cm2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur,
+          libero, asperiores cupiditate laudantium quasi minima quaerat, ex
+          magni expedita nam optio. Veniam, hic fugit. Officia doloribus id
+          aliquam error et.
+        </p>
+      </div>
     </>
   );
 }
